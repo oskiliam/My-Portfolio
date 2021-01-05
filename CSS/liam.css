@@ -6,10 +6,18 @@ body{
 header{
 	background-color: #FF9368;
 	text-align: center; 
+	border-bottom: 30px solid lightsteelblue;
+
 }
 
 header img{
 	width: 90%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 30px solid lightsteelblue;
+    border-right: 30px solid lightsteelblue;
+    border-top: 30px solid lightsteelblue;
 }
 
 header h1{
@@ -21,18 +29,19 @@ h1, h2{
 	font-family: 'Bungee Shade', cursive;
 }
 
-header img{
-	border: 30px solid #FF9368;
-	display: block;
-    margin-left: auto;
-    margin-right: auto
-}
 
 main{
 	background-color: lightsteelblue;
 	max-width: 6000px;
 	margin: 0 auto;
-	padding: 400px
+	border-top: 30px solid lightsteelblue;
+	
+}
+
+h2.Films{
+	margin-top: 10px;
+	background-color:#FF9368;
+	color: white;
 }
 
 main img{
