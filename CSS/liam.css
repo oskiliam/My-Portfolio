@@ -6,7 +6,6 @@ body{
 header{
 	background-color: #FF9368;
 	text-align: center; 
-	border-bottom: 10px solid lightsteelblue;
 
 }
 
@@ -36,9 +35,6 @@ main{
 	
 }
 
-div.YouTube{
-	height: 400px
-}
 
 h2.Films{
 	margin-top: 10px;
@@ -51,6 +47,25 @@ main img{
 	min-width: 33%;
 	max-width: 33%;
 	border: 20px solid white;
+}
+
+div.col{
+	color: #FF9368;
+	font-size: 130px;
+	height: 300px;
+	font-family: 'Bungee Shade', cursive;
+	float: left;
+	margin-left: 30px;
+}
+
+.row{
+	background: lightsteelblue;
+}
+
+.row:after{
+	content: '';
+	display: table;
+	clear: both;
 }
 
 main h2{
