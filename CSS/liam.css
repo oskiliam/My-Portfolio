@@ -14,7 +14,10 @@ header img{
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 10px solid lightsteelblue;
+    border-right: 10px solid lightsteelblue;
+    border-left: 10px solid lightsteelblue;
+    border-bottom: 5px solid lightsteelblue;
+
 }
 
 header h1{
@@ -31,7 +34,7 @@ main{
 	background-color: lightsteelblue;
 	max-width: 6000px;
 	margin: 0 auto;
-	border-top: 10px solid lightsteelblue;
+	border-top: 5px solid lightsteelblue;
 	
 }
 
@@ -47,6 +50,7 @@ main img{
 	min-width: 33%;
 	max-width: 33%;
 	border: 20px solid white;
+	margin-left: 500px;
 }
 
 div.col{
@@ -84,6 +88,7 @@ main p{
 	font-family: 'Bungee Inline', cursive;
 	padding-left: 50px;
 	width: 33%;
+	float:left;
 }
 
 a{
@@ -91,10 +96,12 @@ a{
 	font-size: 75px;
 	font-family: 'Bungee Inline', cursive;
 	padding-left: 0px;
+	float:left;
 }
 
 a:hover{
 	color: #FF6F36
+
 }
 
 footer{
